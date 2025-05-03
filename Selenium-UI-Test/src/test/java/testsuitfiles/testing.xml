@@ -1,0 +1,21 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suit Test" >
+
+    <test name="suit testcase " preserve-order="true">
+
+        <classes>
+          <class name="tests.HomePageTest"></class>
+            <class name="tests.CareersPageTest"></class>
+            <class name="tests.QualityAssurancePageTest"></class>
+            <class name="tests.AllOpenPositionsPageTest"></class>
+
+
+
+        </classes>
+    </test>
+
+</suite>
+
+
